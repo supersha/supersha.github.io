@@ -54,6 +54,8 @@ tagline: 记录点滴前端知识
     * 服务端页面渲染：本地集成开发工具。
     * 本地开发、数据模拟、自动化测试、提交测试、发布上线等整个开发流水线的工程
   
+<br>
+
 ### 技术点整理
 
 0. [HTML Imports](http://www.html5rocks.com/zh/tutorials/webcomponents/imports/)：真正意义上的一个完整的前端模块：HTML、CSS、JS都在一起了，而且JS也不用根据传统的方式去动态加载CSS，将HTML模板写在JS中了，一个模块就是一个document，还是互相独立的引用，互相不耦合。
@@ -65,6 +67,7 @@ tagline: 记录点滴前端知识
 [http://bevacqua.github.io/dragula](http://bevacqua.github.io/dragula)，Browser support includes every sane browser and IE7+.
 0. [The Great Web Module Compendium](http://ponyfoo.com/articles/great-web-module-compendium)
 
+<br>
 
 ### 参加2015北京Qcon一点记录
 
