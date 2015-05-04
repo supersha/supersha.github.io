@@ -50,7 +50,10 @@ tagline: 记录点滴前端知识
 0. 统一风格的UI交互、视觉规范，并实现一套UI框架。提高用户体验，以及UED、前端等的开发效率
     * 前端组件的开发、调试、多人协作、规范、使用、升级等一整套方案
 1. 前后端分离方案：
-    * 纯前端的页面渲染方案：MVC、MVVM等等，[Vue.js](http://vuejs.org/)、[Angularjs](http://angularjs.org/)、[Backbonejs](http://backbonejs.org/)、[Reactjs](https://facebook.github.io/react/)等等
+    * 纯前端的页面渲染方案：MVC、MVVM等等，[Vue.js](http://vuejs.org/)、[Angularjs](http://angularjs.org/)、[Backbonejs](http://backbonejs.org/)、[Reactjs](https://facebook.github.io/react/)等等，下面说一下我在项目中所总结的一个方案：
+        * 自己造了个简单的轮子([mvm-simple](https://github.com/supersha/mvvm-simple))
+        * 项目架构：![](http://gtms01.alicdn.com/tps/i1/TB1ejHAHpXXXXXGaXXXfUQMIVXX-993-406.png)
+        * 使用了内部一个集成开发工具（核心使用FIS，进行了一些包装，满足业务特点的需要），以及需要[juicer](http://juicer.name)模板
     * 服务端页面渲染：本地集成开发工具。
     * 本地开发、数据模拟、自动化测试、提交测试、发布上线等整个开发流水线的工程
   
