@@ -12,7 +12,7 @@ tagline: 记录点滴前端知识
 ### 前端工程
 
 0. 开发流程工程化：[FIS](http://fis.baidu.com)的思路，解决本地开发、调试、编译、部署、性能优化自动化等问题
-    * 模块化框架
+    * 模块化框架：requirejs、seajs、modjs...
     * 模板：后端模板、前端模板
         * 后端模板：可采用PHP Smarty来做，LAMP容易搭建并且有成熟的工具
         * 前端模板：可以开发一个模板，并且支持转成其他模板的语法：编写一种模板，可以转成Smarty等模板语法，**开发一套模板，前后端都可使用**
@@ -50,11 +50,9 @@ tagline: 记录点滴前端知识
 0. 统一风格的UI交互、视觉规范，并实现一套UI框架。提高用户体验，以及UED、前端等的开发效率
     * 前端组件的开发、调试、多人协作、规范、使用、升级等一整套方案
 1. 前后端分离方案：
-    * 纯前端的页面渲染方案：MVC、MVVM等等，[Vue.js](http://vuejs.org/)、[Angularjs](http://angularjs.org/)、[Backbonejs](http://backbonejs.org/)等等
+    * 纯前端的页面渲染方案：MVC、MVVM等等，[Vue.js](http://vuejs.org/)、[Angularjs](http://angularjs.org/)、[Backbonejs](http://backbonejs.org/)、[Reactjs](https://facebook.github.io/react/)等等
     * 服务端页面渲染：本地集成开发工具。
     * 本地开发、数据模拟、自动化测试、提交测试、发布上线等整个开发流水线的工程
-  
-  
   
 ### 技术点整理
 
