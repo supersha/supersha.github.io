@@ -72,6 +72,12 @@ tagline: 记录点滴前端知识
 
 <br>
 
+### github一些有意思的project
+
+0. [jterrace/js.js](https://github.com/jterrace/js.js/) A JavaScript JavaScript interpreter
+
+<br>
+
 ### 参加2015北京Qcon一点记录
 
 #### 移动通讯的极致化追求
