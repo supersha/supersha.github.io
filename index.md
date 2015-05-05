@@ -116,7 +116,12 @@ tagline: 记录点滴前端知识
 * 支持Expires过期时间的localStorage对象封装：[supersha / storage.js](https://github.com/supersha/storage.js)，Usage：[supersha / 5902372](https://gist.github.com/5902372)
 * [Safy](https://github.com/supersha/safy) 纯前端自动化测试系统
     * [Safy平台中使用到的用户行为API](/lessons/2015/05/05/safy-action-api/)
-    * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE编辑器创建的一个AutoComplete编码功能，方便编写代码.
+    * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE编辑器创建的一个AutoComplete编码功能，方便编写代码. ![](http://bcs.duapp.com/diandiblog/QQ20130624-1.png)
     * [获取指定DOM元素的Selector](https://github.com/supersha/safy/blob/master/static/js/get_selector.js)
-
+    * [Safy中的should.js](https://gist.github.com/5932377)
+* [玩了玩iOS设备的螺旋仪](https://gist.github.com/5918279) CSS3里面的transform可以做图形变换的效果，它有2D和3D的效果，rotate有rotateX, rotateY, rotateZ三个方向上的变换，根据要实现的效果就使用rotateY来做左右的倾斜变换的效果。从DeviceOrientationEvent事件属性中获取到gamma属性，也就是左右上下方向的倾斜度，然后把这个属性的值动态写到transform中
+* [page chekcker](https://gist.github.com/6007327) 检查页面不符合最佳实践的方面
+* [frontend.duapp.com](http://frontend.duapp.com) 为前端开发人员提供最新的前端技术文章，囊括国内外知名博客、站点等技术文章
+* [console.duapp.com](http://console.duapp.com) 用于自己在内部开发中使用，调试移动端的页面功能 ![](http://bcs.duapp.com/diandiblog/QQ20130625-1.png)
+* 使用PHP做过一个Combo服务，服务端合并多个js文件并设置相关的缓存
 
