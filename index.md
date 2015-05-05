@@ -72,9 +72,13 @@ tagline: 记录点滴前端知识
 
 <br>
 
-### github一些有意思的project
+### 一些有意思的Project
 
-0. [jterrace/js.js](https://github.com/jterrace/js.js/) A JavaScript JavaScript interpreter
+0. [jterrace / js.js](https://github.com/jterrace/js.js/) A JavaScript JavaScript interpreter
+0. [Every javascript project you should be looking into](http://www.javascriptoo.com/)
+0. [Effeckt.css](http://h5bp.github.io/Effeckt.css/)
+0. [josh / css-explain](https://github.com/josh/css-explain) SQL EXPLAIN for CSS selectors
+0. [blueimp / JavaScript-MD5](https://github.com/blueimp/JavaScript-MD5) JavaScript MD5 implementation. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.
 
 <br>
 
