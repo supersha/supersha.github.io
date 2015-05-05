@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 西红那个柿
-tagline: 记录点滴前端知识
+tagline: 记录自己的前端生涯
 ---
 {% include JB/setup %}
 
