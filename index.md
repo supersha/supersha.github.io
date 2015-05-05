@@ -118,6 +118,5 @@ tagline: 记录点滴前端知识
     * [Safy平台中使用到的用户行为API](/lessons/2015/05/05/safy-action-api/)
     * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE编辑器创建的一个AutoComplete编码功能，方便编写代码.
     * [获取指定DOM元素的Selector](https://github.com/supersha/safy/blob/master/static/js/get_selector.js)
-    * [性能优化随想]()
 
 
