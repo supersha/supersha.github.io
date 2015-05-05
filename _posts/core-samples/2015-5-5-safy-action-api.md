@@ -7,7 +7,7 @@ tagline: ""
 
 Safy作为一个前端自动化测试平台，监控页面的交互行为是重中之重，为此，创建了下面的用户行为相关的API：
 
-{% capture text %}
+{% capture text %}...
 /* Tip：凡是涉及到传递目标元素参数的，都支持selector或者DOM元素的引用的方式 */
  
 /* 创建一个行为（一个case里面可以声明多个行为）*/
@@ -80,7 +80,7 @@ var action = monitor.createAction();
 .wait(639,function(){})
 .click("#tangram-suggestion--TANGRAM__g-item7",function(el){})
 .complete(function(){});
-{% endcapture %}
+...{% endcapture %}
 
 这套用户行为API简单明了，不管FE/QA都能很快的上手去编写测试单侧。
 
