@@ -51,7 +51,7 @@ tagline: 记录点滴前端知识
     * 前端组件的开发、调试、多人协作、规范、使用、升级等一整套方案
 1. 前后端分离方案：
     * 纯前端的页面渲染方案：MVC、MVVM等等，[Vue.js](http://vuejs.org/)、[Angularjs](http://angularjs.org/)、[Backbonejs](http://backbonejs.org/)、[Reactjs](https://facebook.github.io/react/)等等，下面说一下我在项目中所总结的一个方案：
-        * 自己造了个简单的轮子([mvm-simple](https://github.com/supersha/mvvm-simple))
+        * 自己造了个简单的轮子([mvm-simple](https://github.com/supersha/mvvm-simple))，单向的数据和View绑定，并且保持了比较好的JS、HTML、CSS三层分离（在HTML中即做模板，又做功能性的绑定声明的，太那个讨厌了）
         * 项目架构：![](http://gtms01.alicdn.com/tps/i1/TB1ejHAHpXXXXXGaXXXfUQMIVXX-993-406.png) ![](http://gtms04.alicdn.com/tps/i4/TB1PSUtHpXXXXbpaXXXHmZl1VXX-642-517.png)
         * 使用了内部一个集成开发工具（核心使用FIS，进行了一些包装，满足业务特点的需要），以及需要[juicer](http://juicer.name)模板
     * 服务端页面渲染：本地集成开发工具。
@@ -74,12 +74,13 @@ tagline: 记录点滴前端知识
 
 ### 一些有意思的Project
 
-0. [jterrace/js.js](https://github.com/jterrace/js.js/) A JavaScript JavaScript interpreter
+0. [jterrace / js.js](https://github.com/jterrace/js.js/) A JavaScript JavaScript interpreter
 0. [Every javascript project you should be looking into](http://www.javascriptoo.com/)
 0. [Effeckt.css](http://h5bp.github.io/Effeckt.css/)
-0. [josh/css-explain](https://github.com/josh/css-explain) SQL EXPLAIN for CSS selectors
-0. [blueimp/JavaScript-MD5](https://github.com/blueimp/JavaScript-MD5) JavaScript MD5 implementation. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.
-0. [dan-silver/ElementTransitions.js](https://github.com/dan-silver/ElementTransitions.js/) Simple transitions for web pages
+0. [josh / css-explain](https://github.com/josh/css-explain) SQL EXPLAIN for CSS selectors
+0. [blueimp / JavaScript-MD5](https://github.com/blueimp/JavaScript-MD5) JavaScript MD5 implementation. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.
+0. [dan-silver / ElementTransitions.js](https://github.com/dan-silver/ElementTransitions.js/) Simple transitions for web pages
+0. [fex-team / yog2](https://github.com/fex-team/yog2) 基于 express 支持前后一体化开发的框架
 
 <br>
 
