@@ -74,8 +74,6 @@ tagline: 记录点滴前端知识
     * 代码组织：更加模块化，表现、结构、逻辑分离
     * 并行HTML解析：这是首次能够让浏览器并行运行两个(或多个)HTML解析器
 0. [Web Component自定义标签的应用](http://developer.telerik.com/featured/web-components-ready-production)：自定义标签，已经在高级浏览器得到了支持，并且能够很好的自定义一个标签，并且给标签做初始化处理，通过自定义标签，可以很方便的实现一些纯JS的模块化的功能。
-1. [dragula](https://github.com/bevacqua/dragula) Drag and drop so simple it hurts 
-[http://bevacqua.github.io/dragula](http://bevacqua.github.io/dragula)，Browser support includes every sane browser and IE7+.
 0. [The Great Web Module Compendium](http://ponyfoo.com/articles/great-web-module-compendium)
 
 <br>
@@ -90,6 +88,11 @@ tagline: 记录点滴前端知识
 0. [dan-silver / ElementTransitions.js](https://github.com/dan-silver/ElementTransitions.js/) Simple transitions for web pages
 0. [fex-team / yog2](https://github.com/fex-team/yog2) 基于 express 支持前后一体化开发的框架
 0. [thingsinjars / cssert](https://github.com/thingsinjars/cssert) CSS verification testing，特色就是“页面录制工具+自动生成它所能解析的数据接口”，然后去重现这些样式，看是否跟录制的对的上号
+0. [dragula](https://github.com/bevacqua/dragula) Drag and drop so simple it hurts 
+[http://bevacqua.github.io/dragula](http://bevacqua.github.io/dragula)，Browser support includes every sane browser and IE7+.
+0. [victorquinn / chancejs](https://github.com/victorquinn/chancejs) Chance - Random generator helper for JavaScript，生成一个随机字符串
+0. [philipwalton / html-inspector](https://github.com/philipwalton/html-inspector) HTML Inspector is a code quality tool to help you and your team write better markup
+0. [CSS3 Arrow](http://cssarrowplease.com/) CSS3实现的一个arrow，挺方便的
 
 <br>
 
@@ -105,5 +108,13 @@ tagline: 记录点滴前端知识
     * 这个也有比较多的分享者提及，针对2G/3G/4G/WIFI的网络类型进行不同的策略处理，同时要处理好，手持设备的网络类型的不稳定性（几种网络类型可能随时都会切换或者断开）
     * 做网络类型的检测，势必需要不断的轮询（或者Native本身有API可以支持持续检查），这个比较普遍
     * 但是有另外一个比较有意思的点，就是记住用户的网络类型，场景化。比如在家里，在公司，在地铁、在室外等等场景，这个需要对用户的网络类型做很多纬度方面的检测和沉淀来记住当前用户所在的网络类型，而不需要持续的检测。这是一个可以考虑的点。
+
+<br>
+
+### 自己做过/写过的一些东西
+
+* 支持Expires过期时间的localStorage对象封装：[supersha / storage.js](https://github.com/supersha/storage.js)，Usage：[supersha / 5902372](https://gist.github.com/5902372)
+* [Safy](https://github.com/supersha/safy) 纯前端自动化测试系统
+    * Safy平台中使用到的用户行为API
 
 
