@@ -80,7 +80,7 @@ var action = monitor.createAction();
 .wait(639,function(){})
 .click("#tangram-suggestion--TANGRAM__g-item7",function(el){})
 .complete(function(){});
-```
+...{% endcapture %}
 {% include JB/liquid_raw %}
 
 这套用户行为API简单明了，不管FE/QA都能很快的上手去编写测试单侧。
