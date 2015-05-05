@@ -89,6 +89,7 @@ tagline: 记录点滴前端知识
 0. [blueimp / JavaScript-MD5](https://github.com/blueimp/JavaScript-MD5) JavaScript MD5 implementation. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.
 0. [dan-silver / ElementTransitions.js](https://github.com/dan-silver/ElementTransitions.js/) Simple transitions for web pages
 0. [fex-team / yog2](https://github.com/fex-team/yog2) 基于 express 支持前后一体化开发的框架
+0. [thingsinjars / cssert](https://github.com/thingsinjars/cssert) CSS verification testing，特色就是“页面录制工具+自动生成它所能解析的数据接口”，然后去重现这些样式，看是否跟录制的对的上号
 
 <br>
 
