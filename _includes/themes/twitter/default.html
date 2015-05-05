@@ -17,6 +17,7 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/prettify/prettify.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -66,5 +67,13 @@
     </div>
 
     <!--{% include JB/analytics %}-->
+    <script src="{{ ASSET_PATH }}/prettify/prettify.js"></script>
+    <script>
+        var pres = document.querySelectorAll("pre");
+        for(var i = 0; i < pres.length; i++){
+            pres[i].className += " prettyprint linenums";
+        }
+        prettyPrint();
+    </script>
   </body>
 </html>
