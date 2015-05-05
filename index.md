@@ -115,6 +115,9 @@ tagline: 记录点滴前端知识
 
 * 支持Expires过期时间的localStorage对象封装：[supersha / storage.js](https://github.com/supersha/storage.js)，Usage：[supersha / 5902372](https://gist.github.com/5902372)
 * [Safy](https://github.com/supersha/safy) 纯前端自动化测试系统
-    * Safy平台中使用到的用户行为API
+    * [Safy平台中使用到的用户行为API](/lessons/2015/05/05/safy-action-api/)
+    * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE编辑器创建的一个AutoComplete编码功能，方便编写代码.
+    * [获取指定DOM元素的Selector](https://github.com/supersha/safy/blob/master/static/js/get_selector.js)
+    * [性能优化随想]()
 
 
