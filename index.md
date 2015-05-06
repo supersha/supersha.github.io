@@ -116,11 +116,22 @@ tagline: 记录自己的前端生涯
 
 * [mvm-simple](https://github.com/supersha/mvvm-simple) 单向的数据和View绑定，并且保持了比较好的JS、HTML、CSS三层分离
 * 支持Expires过期时间的localStorage对象封装：[supersha / storage.js](https://github.com/supersha/storage.js)，Usage：[supersha / 5902372](https://gist.github.com/5902372)
-* [Safy](https://github.com/supersha/safy) 纯前端自动化测试系统
+* [Safy](https://github.com/supersha/safy) 纯前端自动化测试系统（在百度期间的命名是Safy）
     * [Safy平台中使用到的用户行为API](/lessons/2015/05/05/safy-action-api/)
     * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE编辑器创建的一个AutoComplete编码功能，方便编写代码. ![](http://bcs.duapp.com/diandiblog/QQ20130624-1.png)
     * [获取指定DOM元素的Selector](https://github.com/supersha/safy/blob/master/static/js/get_selector.js)
     * [Safy中的should.js](https://gist.github.com/5932377)
+* 猫须（在天猫期间，Safy更名为猫须）
+    * [平台规划图](http://gtms03.alicdn.com/tps/i3/T1557bFbVfXXaA3NTU-1264-685.png)
+    * [运行服务架构图](http://gtms04.alicdn.com/tps/i4/TB1DBpNHFXXXXXUapXXjSpJVFXX-597-475.png)
+    * [运行任务代码逻辑示意图](http://gtms03.alicdn.com/tps/i3/TB16L0zHFXXXXbJaXXX9tEjOVXX-583-684.png)
+    * [用例的运行方式](http://gtms02.alicdn.com/tps/i2/TB1c3ueHFXXXXXBapXXuFqpYpXX-633-377.png)
+    * 猫须的思想
+        * 任务+用例的模式
+            * 用例，是猫须里面所定义的最小的单元，在用例中，可以是一个通用的测试单元，比如：检测JS文件编码，也可以是业务功能测试的封装，比如：检查搜索链接入参合法性，然后就可以在“创建任务”的时候，勾选这些自己创建的用例。
+            * 用例有“公有”和“私有”之分，其实也就是是否想把自己创建的用例提供给其他人使用
+            * 任务，是猫须里面目前最大的单元，错误报表等目前都是以任务为纬度来发送的，目前猫须这么设置，还是有问题的，应该以“项目”为最大的纬度，一个项目下面包含了任务，任务包含了各种用例模块。这个会在接下来的规划中来实现。 ![](http://gtms03.alicdn.com/tps/i3/TB1Jh2OHpXXXXcbaXXXG0YeVFXX-493-211.png)
+        * 平台跟运行服务相分离：平台是GUI的用例和任务管理平台，运行服务是运行任务，保持两者的分离，方便独立部署和扩展。
 * 性能优化随想。比较喜欢从一个点开始出发，开始发散，联想到更多的前端更多的东西。 ![](http://bcs.duapp.com/diandiblog/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.png)
 * [玩了玩iOS设备的螺旋仪](https://gist.github.com/5918279) CSS3里面的transform可以做图形变换的效果，它有2D和3D的效果，rotate有rotateX, rotateY, rotateZ三个方向上的变换，根据要实现的效果就使用rotateY来做左右的倾斜变换的效果。从DeviceOrientationEvent事件属性中获取到gamma属性，也就是左右上下方向的倾斜度，然后把这个属性的值动态写到transform中
 * [page chekcker](https://gist.github.com/6007327) 检查页面不符合最佳实践的方面
