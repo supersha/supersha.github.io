@@ -94,6 +94,7 @@ tagline: 记录自己的前端生涯
 0. [philipwalton / html-inspector](https://github.com/philipwalton/html-inspector) HTML Inspector is a code quality tool to help you and your team write better markup
 0. [CSS3 Arrow](http://cssarrowplease.com/) CSS3实现的一个arrow，挺方便的
 0. [jsonnet](http://google.github.io/jsonnet/doc/userdocs.html) Google开源的一个扩展JSON能力的项目，使得JSON有了语法的概念
+0. [facebook / immutable-js](https://github.com/facebook/immutable-js) Immutable persistent data collections for Javascript which increase efficiency and simplicity.
 
 <br>
 
