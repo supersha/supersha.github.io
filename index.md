@@ -47,14 +47,13 @@ tagline: 记录自己的前端生涯
     * 设备识别服务。在网络入口层做一个通用的设备识别服务，获取到设备信息，然后下发到后面的各个后端服务，这个识别服务要保持独立性和扩展性，并且要具有收集未知设备的UA信息，供离线分析，然后扩展。
 0. 统一风格的UI交互、视觉规范，并实现一套UI框架。提高用户体验，以及UED、前端等的开发效率
     * 前端组件的开发、调试、多人协作、规范、使用、升级等一整套方案
-1. 前后端分离方案：
+1. 前后端分离方案：本地开发、数据模拟、自动化测试、提交测试、发布上线等整个开发流水线的工程
     * 纯前端的页面渲染方案：MVC、MVVM等等，[Vue.js](http://vuejs.org/)、[Angularjs](http://angularjs.org/)、[Backbonejs](http://backbonejs.org/)、[Reactjs](https://facebook.github.io/react/)等等，下面说一下我在项目中所实践的一个方案：
         * 自己造了个简单的轮子([mvm-simple](https://github.com/supersha/mvvm-simple))，单向的数据和View绑定，并且保持了比较好的JS、HTML、CSS三层分离（在HTML中即做模板，又做功能性的绑定声明的，太那个讨厌了）
         * 项目目录规范：![](http://gtms01.alicdn.com/tps/i1/TB1ejHAHpXXXXXGaXXXfUQMIVXX-993-406.png) 
         * 模块开发示意图：![](http://gtms04.alicdn.com/tps/i4/TB1PSUtHpXXXXbpaXXXHmZl1VXX-642-517.png)
         * 使用了内部一个集成开发工具（核心使用FIS，进行了一些包装，满足业务特点的需要），以及需要[juicer](http://juicer.name)模板
     * 服务端页面渲染：本地集成开发工具。
-    * 本地开发、数据模拟、自动化测试、提交测试、发布上线等整个开发流水线的工程
 0. 接口维护的平台
     * 这个对于前后端分离之后来说，非常重要，说白了就是前端模拟数据的一部分，但是它的意义不在于模拟数据
     * 目前已有的：天猫的IF、淘宝的DIP、阿里妈妈的[RAP](https://github.com/thx/RAP)、百度也有一个（未开源）
