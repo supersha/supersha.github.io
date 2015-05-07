@@ -141,4 +141,3 @@ tagline: 记录自己的前端生涯
 * [console.duapp.com](http://console.duapp.com) 用于自己在内部开发中使用，调试移动端的页面功能 [界面截图](http://bcs.duapp.com/diandiblog/QQ20130625-1.png)
 * 使用PHP做过一个Combo服务，服务端合并多个js文件并设置相关的缓存
 * 折腾了多个本地集成开发环境平台（根据不同的业务场景），前后端分离相关项目的基础建设
-
