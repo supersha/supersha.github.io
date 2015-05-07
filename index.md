@@ -35,8 +35,9 @@ tagline: 记录自己的前端生涯
     0. 代码扫描：HTML、CSS、JS...
     0. 性能检查
     0. 带有业务特点的自动化检测
-4. Webapp、Hybird跟Native的webview如何互相结合：Hybird API的方式来做，API的定义参考HTML5的W3C定义，一方面可以面向未来，而来可以很好的兼容第三方browser的支持
-    * 借助于Native可以获取到系统更多的API支持，并且下发给webapp页面使用
+4. Webapp、Hybird跟Native的webview如何互相结合：
+    * Hybird：API的定义参考HTML5的W3C定义，一方面可以面向未来，而来可以很好的兼容第三方browser的支持。借助于Native可以获取到系统更多的API支持，并且下发给webapp页面使用
+    * [React Native](https://facebook.github.io/react-native/)：facebook最近开源的项目
 5. 拥有一套可以灵活的整站部署脚本的机制：目的是可以对一些整站的监控以及获取日志数据能够快速的实施并且拿到结果
     * 可以在网络层做，在响应请求的时候，直接修改响应的内容，插入全局的内容。这种方案是整站性质的，数据量会很大，需要做好抽样率的控制
     * 在模板中做，整站的页面继承于一个通用的base模板，在该base模板里面做这套逻辑。不过这个方案可能细化到业务级别。
