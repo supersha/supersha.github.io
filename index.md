@@ -20,7 +20,7 @@ tagline: 记录自己的前端生涯
 1. 整站性能监控：整站部署性能采集脚本，然后通过url作为key的方式，整合性能数据，图表展示，并且制定一个**性能标准**，根据性能标准来做报警机制（邮件、短信、IM即时通讯工具提醒等），并且有日常报表发送功能
     * 对于webapp、hybird应用尤其重要，需要对发布的页面进行性能检测（真机性能测试、可以模拟平均网速：wifi、3g、2g环境的情况）
     * 对于以图片为主的业务，对图片的压缩尤其重要，可以CDN自动压缩机制，对于页面的sprites图，通过工具在开发编译阶段做好压缩和优化
-2. [整站JS错误监控](http://blog.newrelic.com/2014/03/13/javascript-error-reporting-ajax-timing-new-relic)：整站部署JS脚本错误监控，并且有报警机制（在指定的时间段内报错数量达到限制数量）， ![](http://gtms02.alicdn.com/tps/i2/TB1KJGJGXXXXXbUapXXXGNj1FXX-1286-697.jpg)
+2. [整站JS错误监控](http://blog.newrelic.com/2014/03/13/javascript-error-reporting-ajax-timing-new-relic)：整站部署JS脚本错误监控，并且有报警机制（在指定的时间段内报错数量达到限制数量）
     * window.onerror方案：如果要支持获取到脚本出错的详细信息：error message, stack trace, browser version, user agent string, url，一般静态资源都会CDN化，跟主页面的域名不同域，所以需要js的CDN支持跨域的响应头CORS的设置，只设置针对自己站点的支持即可，该方案简便，多终端支持。
     * 常规的自动化监控webdriver、phantomjs、slimerjs模拟手持设备：可以从底层拿到错误的详细信息
     * Ajax请求的监控：响应的状态码、响应错误、响应的时间分布等数据
