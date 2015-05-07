@@ -94,6 +94,7 @@ tagline: 记录自己的前端生涯
 0. [jsonnet](http://google.github.io/jsonnet/doc/userdocs.html) Google开源的一个扩展JSON能力的项目，使得JSON有了语法的概念
 0. [facebook / immutable-js](https://github.com/facebook/immutable-js) Immutable persistent data collections for Javascript which increase efficiency and simplicity.
 0. [ftlabs / fastclick](https://github.com/ftlabs/fastclick) Polyfill to remove click delays on browsers with touch UIs. 解决click事件300ms延迟的问题，zepto也有类似的tap事件的实现方案
+0. [hammerjs / hammer.js](https://github.com/hammerjs/hammer.js) [http://hammerjs.github.io/](http://hammerjs.github.io/) 轻量级的Touch/Gesture手势库
 
 <br>
 
@@ -119,7 +120,7 @@ tagline: 记录自己的前端生涯
 * 支持Expires过期时间的localStorage对象封装：[supersha / storage.js](https://github.com/supersha/storage.js)，Usage：[supersha / 5902372](https://gist.github.com/5902372)
 * [Safy](https://github.com/supersha/safy) 纯前端自动化测试系统（在百度期间的命名是Safy）
     * [Safy平台中使用到的用户行为API](/lessons/2015/05/05/safy-action-api/)
-    * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE编辑器创建的一个AutoComplete编码功能，方便编写代码. ![](http://bcs.duapp.com/diandiblog/QQ20130624-1.png)
+    * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE编辑器创建的一个AutoComplete编码功能，方便编写代码. [DEMO截图](http://bcs.duapp.com/diandiblog/QQ20130624-1.png)
     * [获取指定DOM元素的Selector](https://github.com/supersha/safy/blob/master/static/js/get_selector.js)
     * [Safy中的should.js](https://gist.github.com/5932377)
 * 猫须（在天猫期间，Safy更名为猫须）
