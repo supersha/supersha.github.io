@@ -120,7 +120,7 @@ tagline: 记录自己的前端生涯
 * 支持Expires过期时间的localStorage对象封装：[supersha / storage.js](https://github.com/supersha/storage.js)，Usage：[supersha / 5902372](https://gist.github.com/5902372)
 * [Safy](https://github.com/supersha/safy) 纯前端自动化测试系统（在百度期间的命名是Safy）
     * [Safy平台中使用到的用户行为API](/lessons/2015/05/05/safy-action-api/)
-    * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE写的一个AutoComplete扩展功能，方便编写代码. [DEMO截图](http://bcs.duapp.com/diandiblog/QQ20130624-1.png)
+    * [ACE在线编辑器的AutoComplete功能](https://gist.github.com/5230745) 给ACE写的一个AutoComplete扩展功能，方便写代码。[界面截图](http://bcs.duapp.com/diandiblog/QQ20130624-1.png)
     * [获取指定DOM元素的Selector](https://github.com/supersha/safy/blob/master/static/js/get_selector.js)
     * [Safy中的should.js](https://gist.github.com/5932377)
 * 猫须（在天猫期间，Safy更名为猫须）
