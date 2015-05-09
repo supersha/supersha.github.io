@@ -97,6 +97,7 @@ tagline: 记录自己的前端生涯
 0. [hammerjs / hammer.js](https://github.com/hammerjs/hammer.js) [http://hammerjs.github.io/](http://hammerjs.github.io/) 轻量级的Touch/Gesture手势库
 0. [muut / riotjs](https://github.com/muut/riotjs) [https://muut.com/riotjs/](https://muut.com/riotjs/) 类似于Reactjs的一个轻量级库，在模块方面，将JS+Template+CSS整合到一个文件中来维护和编写，保持了模块的独立性和维护性，挺不错的一个方案，由于轻量级，在手机端可以更好的尝试下。
 0. [Vue.js](http://cn.vuejs.org/) 轻量级的MVVM，算是Angular的精简版。提供了模板引擎+事件绑定+DOM自动操作，在手机端也还是一个不错的选择
+0. [richtr / NoSleep.js](https://github.com/richtr/NoSleep.js) Prevent display sleep and enable wake lock in any Android or iOS web browser。在浏览器端就可以控制手机屏幕是否进入待机状态，挺有意思的一个hack技巧
 
 <br>
 
