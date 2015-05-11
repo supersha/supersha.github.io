@@ -73,6 +73,7 @@ tagline: 记录自己的前端生涯
     * 并行HTML解析：这是首次能够让浏览器并行运行两个(或多个)HTML解析器
 0. [Web Component自定义标签的应用](http://developer.telerik.com/featured/web-components-ready-production)：自定义标签，已经在高级浏览器得到了支持，并且能够很好的自定义一个标签，并且给标签做初始化处理，通过自定义标签，可以很方便的实现一些纯JS的模块化的功能。
 0. [The Great Web Module Compendium](http://ponyfoo.com/articles/great-web-module-compendium)
+0. -webkit-overflow-scrolling:touch iOS7+可以很好的支持滚动的流畅性，overflow hidden之后不再生硬
 
 <br>
 
