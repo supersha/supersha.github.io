@@ -75,6 +75,7 @@ tagline: 记录自己的前端生涯
 0. [The Great Web Module Compendium](http://ponyfoo.com/articles/great-web-module-compendium)
 0. -webkit-overflow-scrolling:touch iOS7+可以很好的支持滚动的流畅性，overflow hidden之后不再生硬
 0. iOS8+ 已支持0.5px的border声明，让border更接近Native
+0. [Hybrid选型及设计原理](http://segmentfault.com/a/1190000002587623)
 
 <br>
 
@@ -101,6 +102,7 @@ tagline: 记录自己的前端生涯
 0. [Vue.js](http://cn.vuejs.org/) 轻量级的MVVM，算是Angular的精简版。提供了模板引擎+事件绑定+DOM自动操作，在手机端也还是一个不错的选择
 0. [richtr / NoSleep.js](https://github.com/richtr/NoSleep.js) Prevent display sleep and enable wake lock in any Android or iOS web browser。在浏览器端就可以控制手机屏幕是否进入待机状态，挺有意思的一个hack技巧
 0. [krasimir / lsbridge](https://github.com/krasimir/lsbridge) Using local storage as a communication channel
+0. [Matt-Esch / virtual-dom](https://github.com/Matt-Esch/virtual-dom) A Virtual DOM and diffing algorithm
 
 <br>
 
