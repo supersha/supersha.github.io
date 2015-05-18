@@ -62,6 +62,13 @@ tagline: 记录自己的前端生涯
         0. 通过该API接口，可以自动随机生成一个JSON模拟数据，然后可以给到前端渲染页面，而不依赖后端的数据
         0. 也可以生成一个规范的JSON Schema，然后给到测试同学，对接口进行自动化测试和校验
     * 最大的意义在于：这样的一个接口平台比死的接口文档来的更好维护，在项目后期的日常维护中特别有帮助，可以让多个角色（测试、后端等）都可以很方面的维护和编辑，然后前端就可以自动拿到模拟的数据。保持了这个API接口约定的可维护性。
+0. 移动端加载性能优化：
+    * 预加载：显性加载 & 隐性加载
+    * 按需加载：模块化的程度要高
+        * 滚动按需加载
+        * 隐藏内容按需加载。这里配合一个**点击统计分析的方式最佳**，页面那些功能或者页面被点击的更多，那么就可以预加载这部分内容，而不需要点击之后才加载内容，[dieulot / instantclick](https://github.com/dieulot/instantclick/)
+    * 配合Native App对Webview的网络加载优化，Package APP的方式，将页面打包发布到Native App中，这样可以无需加载页面的HTML内容（非实时性内容）
+    * 离线应用、本地缓存（localStorage）有针对性的对一些设备（iOS、Android高端机器）做支持
   
 <br>
 
@@ -104,6 +111,7 @@ tagline: 记录自己的前端生涯
 0. [krasimir / lsbridge](https://github.com/krasimir/lsbridge) Using local storage as a communication channel
 0. [Matt-Esch / virtual-dom](https://github.com/Matt-Esch/virtual-dom) A Virtual DOM and diffing algorithm
 0. [webpack / webpack](https://github.com/webpack/webpack) [http://webpack.github.io](http://webpack.github.io) Packs CommonJs/AMD modules for the browser.
+0. [dieulot / instantclick](https://github.com/dieulot/instantclick/) InstantClick makes following links in your website instant. 让异步加载的更快
 
 <br>
 
@@ -138,3 +146,10 @@ tagline: 记录自己的前端生涯
 
 ### 书籍记录
 0. [技术领导之路](http://book.douban.com/subject/4187478/)
+
+### 收藏夹
+
+0. [那些过目不忘的H5页面](http://isux.tencent.com/great-mobile-h5-pages.html) 创意十足
+0. [mobileTech](https://github.com/jtyjty99999/mobileTech) 近期要多看看
+0. [FIS 原理文章](http://fis.baidu.com/docs/dev/more.html)
+
