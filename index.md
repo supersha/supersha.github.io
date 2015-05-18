@@ -103,6 +103,7 @@ tagline: 记录自己的前端生涯
 0. [richtr / NoSleep.js](https://github.com/richtr/NoSleep.js) Prevent display sleep and enable wake lock in any Android or iOS web browser。在浏览器端就可以控制手机屏幕是否进入待机状态，挺有意思的一个hack技巧
 0. [krasimir / lsbridge](https://github.com/krasimir/lsbridge) Using local storage as a communication channel
 0. [Matt-Esch / virtual-dom](https://github.com/Matt-Esch/virtual-dom) A Virtual DOM and diffing algorithm
+0. [webpack / webpack](https://github.com/webpack/webpack) [http://webpack.github.io](http://webpack.github.io) Packs CommonJs/AMD modules for the browser.
 
 <br>
 
@@ -134,3 +135,6 @@ tagline: 记录自己的前端生涯
 * [console.duapp.com](http://console.duapp.com) 用于自己在内部开发中使用，调试移动端的页面功能 [界面截图](http://bcs.duapp.com/diandiblog/QQ20130625-1.png)
 * 使用PHP做过一个Combo服务，服务端合并多个js文件并设置相关的缓存
 * 折腾了多个本地集成开发环境平台（根据不同的业务场景），前后端分离相关项目的基础建设
+
+### 书籍记录
+0. [技术领导之路](http://book.douban.com/subject/4187478/)
