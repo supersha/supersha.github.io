@@ -72,6 +72,10 @@ tagline: 记录自己的前端生涯
         * 实时性内容通过异步加载
         * 发布后实时推送到Native App进行相关的缓存
     * 离线应用、本地缓存（localStorage）有针对性的对一些设备（iOS、Android高端机器）做支持
+    * 相关文章：
+        0. [首屏渲染优化提案反馈](http://lists.w3.org/Archives/Public/public-html-ig-zh/2014May/0005.html)
+        0. [无线页面首屏建议大小：100K](http://gitlab.alibaba-inc.com/mobilex/know/issues/28)
+        0. [移动端页面性能探究](http://blog.csdn.net/zqjflash/article/details/44906763)
   
 <br>
 
@@ -159,4 +163,6 @@ tagline: 记录自己的前端生涯
 0. [FIS 原理文章](http://fis.baidu.com/docs/dev/more.html)
 0. [多屏复杂动画CSS技巧三则](http://isux.tencent.com/css-animation-skills.html)
 0. [http://npmsearch.com/](http://npmsearch.com/)
+0. [web远程调试方案推荐](http://www.atatech.org/articles/21080)
+0. [前端工程架构探讨](http://www.atatech.org/articles/33770) 外网无法访问
 
