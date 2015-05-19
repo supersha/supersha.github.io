@@ -154,5 +154,8 @@ tagline: 记录自己的前端生涯
 
 0. [那些过目不忘的H5页面](http://isux.tencent.com/great-mobile-h5-pages.html) 创意十足
 0. [mobileTech](https://github.com/jtyjty99999/mobileTech) 近期要多看看
+    * [Phone Screen Sizes](http://screensiz.es/phone)
+    * [HTML5兼容性列表](http://mobilehtml5.org/)
 0. [FIS 原理文章](http://fis.baidu.com/docs/dev/more.html)
+0. [多屏复杂动画CSS技巧三则](http://isux.tencent.com/css-animation-skills.html)
 
