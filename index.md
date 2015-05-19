@@ -158,4 +158,5 @@ tagline: 记录自己的前端生涯
     * [HTML5兼容性列表](http://mobilehtml5.org/)
 0. [FIS 原理文章](http://fis.baidu.com/docs/dev/more.html)
 0. [多屏复杂动画CSS技巧三则](http://isux.tencent.com/css-animation-skills.html)
+0. [http://npmsearch.com/](http://npmsearch.com/)
 
