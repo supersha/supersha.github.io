@@ -72,6 +72,9 @@ tagline: 记录自己的前端生涯
         * 实时性内容通过异步加载
         * 发布后实时推送到Native App进行相关的缓存
     * 离线应用、本地缓存（localStorage）有针对性的对一些设备（iOS、Android高端机器）做支持
+    * 网络速度检测机制：根据网速的快慢来决定返回跟用户的是体验更好的版本，还是简化版本，而不是根据设备机型
+        * 有一个性能统计的平台，分析用户所使用网络的平均网速（这个是会根据用户网络情况实时改变），来返回给用户所使用的页面版本
+        * WIFI、4G的网络情况也作为一个因素
     * 相关文章：
         0. [首屏渲染优化提案反馈](http://lists.w3.org/Archives/Public/public-html-ig-zh/2014May/0005.html)
         0. [无线页面首屏建议大小：100K](http://gitlab.alibaba-inc.com/mobilex/know/issues/28)
@@ -160,6 +163,7 @@ tagline: 记录自己的前端生涯
 0. [mobileTech](https://github.com/jtyjty99999/mobileTech) 近期要多看看
     * [Phone Screen Sizes](http://screensiz.es/phone)
     * [HTML5兼容性列表](http://mobilehtml5.org/)
+    * [移动Web单页应用开发实践——页面结构化](https://github.com/maxzhang/maxzhang.github.com/issues/8)
 0. [FIS 原理文章](http://fis.baidu.com/docs/dev/more.html)
 0. [多屏复杂动画CSS技巧三则](http://isux.tencent.com/css-animation-skills.html)
 0. [http://npmsearch.com/](http://npmsearch.com/)
