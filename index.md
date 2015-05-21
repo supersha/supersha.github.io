@@ -80,6 +80,8 @@ tagline: 记录自己的前端生涯
         0. [首屏渲染优化提案反馈](http://lists.w3.org/Archives/Public/public-html-ig-zh/2014May/0005.html)
         0. [无线页面首屏建议大小：100K](http://gitlab.alibaba-inc.com/mobilex/know/issues/28)
         0. [移动端页面性能探究](http://blog.csdn.net/zqjflash/article/details/44906763)
+        0. [7 天打造前端性能监控系统](http://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/)
+        0. [前端数据之美 -- 基础篇](http://fex.baidu.com/blog/2014/05/front_end-data/)
   
 <br>
 
@@ -170,4 +172,5 @@ tagline: 记录自己的前端生涯
 0. [http://npmsearch.com/](http://npmsearch.com/)
 0. [web远程调试方案推荐](http://www.atatech.org/articles/21080)
 0. [前端工程架构探讨](http://www.atatech.org/articles/33770) 外网无法访问
+0. [WHY ‘MOBILE FIRST’ MAY ALREADY BE OUTDATED](https://blog.intercom.io/why-mobile-first-may-already-be-outdated/) 
 
