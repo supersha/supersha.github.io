@@ -82,6 +82,7 @@ tagline: 记录自己的前端生涯
         0. [移动端页面性能探究](http://blog.csdn.net/zqjflash/article/details/44906763)
         0. [7 天打造前端性能监控系统](http://fex.baidu.com/blog/2014/05/build-performance-monitor-in-7-days/)
         0. [前端数据之美 -- 基础篇](http://fex.baidu.com/blog/2014/05/front_end-data/)
+        0. [Mobile Performance Velocity2011 - DavidWei](http://velocity.oreilly.com.cn/2011/ppts/MobilePerformanceVelocity2011_DavidWei.pdf)
   
 <br>
 
