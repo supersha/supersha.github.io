@@ -164,15 +164,24 @@ tagline: 记录自己的前端生涯
 
 ### 收藏夹
 
+**技术**
+
 0. [那些过目不忘的H5页面](http://isux.tencent.com/great-mobile-h5-pages.html) 创意十足
 0. [mobileTech](https://github.com/jtyjty99999/mobileTech) 近期要多看看
     * [Phone Screen Sizes](http://screensiz.es/phone)
     * [HTML5兼容性列表](http://mobilehtml5.org/)
     * [移动Web单页应用开发实践——页面结构化](https://github.com/maxzhang/maxzhang.github.com/issues/8)
+    * 判断照片的横竖排列
+    * 超链接active的兼容
+    * 万能的 `-webkit-transform-style: preserve-3d;` `-webkit-backface-visibility: hidden;` 动画闪白问题
 0. [FIS 原理文章](http://fis.baidu.com/docs/dev/more.html)
 0. [多屏复杂动画CSS技巧三则](http://isux.tencent.com/css-animation-skills.html)
 0. [http://npmsearch.com/](http://npmsearch.com/)
 0. [web远程调试方案推荐](http://www.atatech.org/articles/21080)
 0. [前端工程架构探讨](http://www.atatech.org/articles/33770) 外网无法访问
 0. [WHY ‘MOBILE FIRST’ MAY ALREADY BE OUTDATED](https://blog.intercom.io/why-mobile-first-may-already-be-outdated/) 
+
+**有意思的文章**
+
+0. [巧用运营设计让用户毫不犹豫地“买买买”](http://isux.tencent.com/optimized-promotion-campaign.html)
 
