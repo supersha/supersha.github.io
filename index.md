@@ -127,6 +127,7 @@ tagline: 记录自己的前端生涯
 0. [webpack / webpack](https://github.com/webpack/webpack) [http://webpack.github.io](http://webpack.github.io) Packs CommonJs/AMD modules for the browser.
 0. [dieulot / instantclick](https://github.com/dieulot/instantclick/) InstantClick makes following links in your website instant. 让异步加载的更快
 0. [visionmedia / page.js](https://github.com/visionmedia/page.js) 简洁的页面Router封装的库
+0. [Babeljs/](http://babeljs.io/) A JavaScript compiler
 
 <br>
 
