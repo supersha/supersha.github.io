@@ -153,6 +153,7 @@ tagline: 记录自己的前端生涯
             * 任务，是猫须里面目前最大的单元，错误报表等目前都是以任务为纬度来发送的，目前猫须这么设置，还是有问题的，应该以“项目”为最大的纬度，一个项目下面包含了任务，任务包含了各种用例模块。这个会在接下来的规划中来实现。 ![](http://gtms03.alicdn.com/tps/i3/TB1Jh2OHpXXXXcbaXXXG0YeVFXX-493-211.png)
         * 平台跟运行服务相分离：平台是GUI的用例和任务管理平台，运行服务是运行任务，保持两者的分离，方便独立部署和扩展。
         * 创建任务的多样性：![](http://gtms01.alicdn.com/tps/i1/TB1gb1sHFXXXXXdapXXHHaWIFXX-808-203.png)
+* 海豚：对，它还是一个Web UI自动化测试平台，专为移动端WebApp量身定做。[介绍文章](http://div.io/topic/1339)
 * 性能优化随想。比较喜欢从一个点开始出发，开始发散，联想到更多的前端更多的东西。 [思维导图](http://bcs.duapp.com/diandiblog/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.png)
 * [玩了玩iOS设备的螺旋仪](https://gist.github.com/5918279) CSS3里面的transform可以做图形变换的效果，它有2D和3D的效果，rotate有rotateX, rotateY, rotateZ三个方向上的变换，根据要实现的效果就使用rotateY来做左右的倾斜变换的效果。从DeviceOrientationEvent事件属性中获取到gamma属性，也就是左右上下方向的倾斜度，然后把这个属性的值动态写到transform中
 * [page chekcker](https://gist.github.com/6007327) 检查页面不符合最佳实践的方面
