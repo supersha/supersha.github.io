@@ -1,0 +1,12 @@
+2015-09-17T10:25:35.696Z - info: Starting proxy on port 2001, will wait at most 15000 ms
+2015-09-17T10:25:38.804Z - error: Catched an uncaught exception:Error: The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH.Error: The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH.
+    at Error (native)
+    at new ServiceBuilder (/usr/local/lib/node_modules/browsertime/node_modules/selenium-webdriver/chrome.js:152:11)
+    at getDefaultService (/usr/local/lib/node_modules/browsertime/node_modules/selenium-webdriver/chrome.js:336:22)
+    at new Driver (/usr/local/lib/node_modules/browsertime/node_modules/selenium-webdriver/chrome.js:776:32)
+    at Builder.build (/usr/local/lib/node_modules/browsertime/node_modules/selenium-webdriver/builder.js:454:14)
+    at Object.module.exports.getDriver (/usr/local/lib/node_modules/browsertime/lib/browsers/chrome.js:41:49)
+    at /usr/local/lib/node_modules/browsertime/lib/browsertime.js:107:64
+    at /usr/local/lib/node_modules/browsertime/node_modules/async/lib/async.js:697:13
+    at /usr/local/lib/node_modules/browsertime/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/browsertime/node_modules/async/lib/async.js:272:32

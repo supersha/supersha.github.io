@@ -1,0 +1,29 @@
+2015-09-17T10:25:36.416Z - info: stdout:Unable to find conf/bmp-logging.properties. Using default logging configuration.
+
+2015-09-17T10:25:37.062Z - error: stderr:INFO 09/17 10:25:37 n.l.b.p.Main         - Starting BrowserMob Proxy version 2.0.0
+
+2015-09-17T10:25:37.112Z - error: stderr:INFO 09/17 10:25:37 o.e.j.u.log          - jetty-2.0.0
+
+2015-09-17T10:25:37.198Z - error: stderr:INFO 09/17 10:25:37 o.e.j.u.log          - started o.e.j.s.ServletContextHandler{/,null}
+
+2015-09-17T10:25:37.685Z - error: stderr:INFO 09/17 10:25:37 o.e.j.u.log          - Started SelectChannelConnector@0.0.0.0:2001
+
+2015-09-17T10:25:38.145Z - error: stderr:INFO 09/17 10:25:38 n.l.b.p.j.h.HttpSer~ - Version Jetty/2.0.0
+
+2015-09-17T10:25:38.146Z - error: stderr:INFO 09/17 10:25:38 n.l.b.p.j.u.Contain~ - Started HttpContext[/,/]
+
+2015-09-17T10:25:38.152Z - error: stderr:INFO 09/17 10:25:38 n.l.b.p.j.h.SocketL~ - Started SocketListener on 0.0.0.0:2000
+
+2015-09-17T10:25:38.152Z - error: stderr:INFO 09/17 10:25:38 n.l.b.p.j.u.Contain~ - Started net.lightbody.bmp.proxy.jetty.jetty.Server@63f55cbf
+
+2015-09-17T10:25:38.803Z - error: Error: The ChromeDriver could not be found on the current PATH. Please download the latest version of the ChromeDriver from http://chromedriver.storage.googleapis.com/index.html and ensure it can be found on your PATH.
+    at Error (native)
+    at new ServiceBuilder (/usr/local/lib/node_modules/browsertime/node_modules/selenium-webdriver/chrome.js:152:11)
+    at getDefaultService (/usr/local/lib/node_modules/browsertime/node_modules/selenium-webdriver/chrome.js:336:22)
+    at new Driver (/usr/local/lib/node_modules/browsertime/node_modules/selenium-webdriver/chrome.js:776:32)
+    at Builder.build (/usr/local/lib/node_modules/browsertime/node_modules/selenium-webdriver/builder.js:454:14)
+    at Object.module.exports.getDriver (/usr/local/lib/node_modules/browsertime/lib/browsers/chrome.js:41:49)
+    at /usr/local/lib/node_modules/browsertime/lib/browsertime.js:107:64
+    at /usr/local/lib/node_modules/browsertime/node_modules/async/lib/async.js:697:13
+    at /usr/local/lib/node_modules/browsertime/node_modules/async/lib/async.js:52:16
+    at /usr/local/lib/node_modules/browsertime/node_modules/async/lib/async.js:272:32
