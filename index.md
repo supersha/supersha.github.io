@@ -186,6 +186,7 @@ tagline: 记录自己的前端生涯
     0. [web远程调试方案推荐](http://www.atatech.org/articles/21080)
     0. [前端工程架构探讨](http://www.atatech.org/articles/33770) 外网无法访问
     0. [WHY ‘MOBILE FIRST’ MAY ALREADY BE OUTDATED](https://blog.intercom.io/why-mobile-first-may-already-be-outdated/) 
+    1. [2016 - the year of web streams](https://jakearchibald.com/2016/streams-ftw/)
 * **有意思的文章**
     0. [巧用运营设计让用户毫不犹豫地“买买买”](http://isux.tencent.com/optimized-promotion-campaign.html)
 * **安全**
