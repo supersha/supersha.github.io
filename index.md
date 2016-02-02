@@ -129,6 +129,7 @@ tagline: 记录自己的前端生涯
 0. [visionmedia / page.js](https://github.com/visionmedia/page.js) 简洁的页面Router封装的库
 0. [Babeljs/](http://babeljs.io/) A JavaScript compiler
 0. [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) JSON Web Token implementation (symmetric and asymmetric)
+1. [victorquinn/chancejs](https://github.com/victorquinn/chancejs) Chance - Random generator helper for JavaScript
 
 <br>
 
